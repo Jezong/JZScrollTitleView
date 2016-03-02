@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1321B3A1C8734720033716D /* JZScrollTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1321B391C8734720033716D /* JZScrollTitleView.swift */; };
 		D163826F1C7F3FAA00CDE70F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D163826E1C7F3FAA00CDE70F /* AppDelegate.swift */; };
 		D16382711C7F3FAA00CDE70F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16382701C7F3FAA00CDE70F /* ViewController.swift */; };
 		D16382741C7F3FAA00CDE70F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D16382721C7F3FAA00CDE70F /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D1321B391C8734720033716D /* JZScrollTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZScrollTitleView.swift; sourceTree = "<group>"; };
 		D163826B1C7F3FA900CDE70F /* JZScrollTitleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZScrollTitleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D163826E1C7F3FAA00CDE70F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D16382701C7F3FAA00CDE70F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D1321B381C8734720033716D /* JZScrollTitleView */ = {
+			isa = PBXGroup;
+			children = (
+				D1321B391C8734720033716D /* JZScrollTitleView.swift */,
+			);
+			path = JZScrollTitleView;
+			sourceTree = "<group>";
+		};
 		D16382621C7F3FA900CDE70F = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 		D163826D1C7F3FAA00CDE70F /* JZScrollTitleView */ = {
 			isa = PBXGroup;
 			children = (
+				D1321B381C8734720033716D /* JZScrollTitleView */,
 				D163826E1C7F3FAA00CDE70F /* AppDelegate.swift */,
 				D16382701C7F3FAA00CDE70F /* ViewController.swift */,
 				D16382721C7F3FAA00CDE70F /* Main.storyboard */,
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1321B3A1C8734720033716D /* JZScrollTitleView.swift in Sources */,
 				D16382711C7F3FAA00CDE70F /* ViewController.swift in Sources */,
 				D163826F1C7F3FAA00CDE70F /* AppDelegate.swift in Sources */,
 			);
@@ -284,6 +296,7 @@
 				D163827F1C7F3FAA00CDE70F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

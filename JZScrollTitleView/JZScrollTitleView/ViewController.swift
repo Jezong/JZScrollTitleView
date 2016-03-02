@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  JZScrollTitleView
 //
-//  Created by sswukang on 16/2/25.
+//  Created by jezong on 16/2/25.
 //  Copyright © 2016年 jezong. All rights reserved.
 //
 
