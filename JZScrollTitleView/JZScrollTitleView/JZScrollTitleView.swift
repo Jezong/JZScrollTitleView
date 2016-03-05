@@ -102,13 +102,7 @@ public class JZScrollTitleView: UIControl, UIScrollViewDelegate {
 	@objc private func tapTitleButton(button: UIButton) {
 		setSelectedPosition(button.tag - 100, animated: true)
 		//向目标发送事件消息
-		for target in allTargets() {
-			if let actions = actionsForTarget(target, forControlEvent: .ValueChanged) {
-				for action in actions {
-					target.performSelector(Selector(action), withObject: self)
-				}
-			}
-		}
+		sendActionsForControlEvents(.ValueChanged)
 	}
 	
 //MARK: - Interface
